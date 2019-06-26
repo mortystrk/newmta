@@ -1,0 +1,12 @@
+namespace TestMTA.db;
+
+context people {
+
+    /*@@layout{"layoutInfo":{"x":344,"y":146.5}}*/
+    entity man {
+        key id      : Integer;
+            name    : String(30);
+            surname : String(30);
+            age     : Integer;
+    };
+};

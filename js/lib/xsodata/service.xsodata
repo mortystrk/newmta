@@ -1,0 +1,6 @@
+service  
+{
+
+"TestMTA.db::people.man" as "man";
+
+}
